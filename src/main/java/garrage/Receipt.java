@@ -13,6 +13,9 @@ public class Receipt {
         this.price = price;
     }
 
+    public int getCount() {
+        return count;
+    }
 
     public void printReceipt(){
         System.out.printf("Typ naprawy %s , ilosc %d , cena %.2f zl,laczna cena %.2f zl\n",
