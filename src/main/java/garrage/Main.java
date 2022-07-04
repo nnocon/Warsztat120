@@ -12,6 +12,14 @@ public class Main {
         Wheel[] wheels = {wheel1, wheel2, wheel3, wheel4};
         Car car = new Car(wheels);
         System.out.println(car);
+        car.flatRandomTire();
+        car.flatRandomTire();
+        car.flatRandomTire();
+        System.out.println(car);
+        Garrage garrage = new Garrage();
+        Receipt receipt = garrage.repairCar(car);
+        receipt.printReceipt();
+        System.out.println(car);
 
     }
 }
