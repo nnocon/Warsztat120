@@ -15,7 +15,7 @@ public class Receipt {
 
 
     public void printReceipt(){
-        System.out.printf("Typ naprawy %s , ilosc %d , cena %f zl,laczna cena %f zl\n",
+        System.out.printf("Typ naprawy %s , ilosc %d , cena %.2f zl,laczna cena %.2f zl\n",
                 repairType, count,price, totalPrice);
     }
 }
