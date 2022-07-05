@@ -1,6 +1,6 @@
-package collections;
+package collections.inheritance;
 
-public class Monkey {
+public class Monkey extends Animal{
     private String name;
     private int age;
     private int tailLengt;
@@ -23,5 +23,9 @@ public class Monkey {
 
     public void jump(){
         System.out.println(name + " skacze w poszukiwaniu babana!");
+    }
+
+    public void eat (){
+        System.out.println("Malpa je banana!");
     }
 }

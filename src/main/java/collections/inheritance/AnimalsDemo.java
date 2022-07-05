@@ -1,7 +1,5 @@
 package collections.inheritance;
 
-import collections.Monkey;
-
 public class AnimalsDemo {
     public static void main(String[] args) {
 
@@ -16,7 +14,11 @@ public class AnimalsDemo {
         monkey.uhaha();
 
         whale.booing();
-        whale.swimm();
+        whale.swim();
+
+        //wspolna metoda:
+        monkey.eat();
+        whale.eat();
     }
 
 }

@@ -1,6 +1,6 @@
 package collections.inheritance;
 
-public class Whale {
+public class Whale extends Animal{
     private String name;
     private int age;
     private double weight;
@@ -19,8 +19,13 @@ public class Whale {
     public void booing(){
         System.out.println("<donosne buczenie wieloryba>");
     }
-    public void swimm(){
-        System.out.println(name + "plywa");
+    public void swim(){
+        System.out.println(name + " plywa");
+    }
+
+    public void eat (){
+        super.eat();
+        System.out.println("Czyli je plankton");
     }
 
 }
