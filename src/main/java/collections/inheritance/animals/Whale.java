@@ -1,6 +1,9 @@
 package collections.inheritance.animals;
 
-public class Whale extends Animal{
+import collections.inheritance.interfaces.WaterCreature;
+import collections.inheritance.interfaces.WildAnimal;
+
+public class Whale extends Animal implements WildAnimal, WaterCreature {
 
     private double weight;
 
@@ -27,6 +30,7 @@ public class Whale extends Animal{
     public void eat(){
         super.eat();
         System.out.println("Czyli je plankton");
+
     }
 
     @Override

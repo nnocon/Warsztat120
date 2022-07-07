@@ -43,9 +43,11 @@ public class AnimalsDemo {
         // animalGuide.feedMonkey(monkey);
         //  animalGuide.feedWhale(whale);
 
-        animalGuide.feedAnimal(monkey);
-        animalGuide.feedAnimal(whale);
+      //  animalGuide.feedAnimal(monkey);
+      //  animalGuide.feedAnimal(whale);
 
+
+        animalGuide.feedAnimal(new Cow("Mucka",10));
         //polimorfizm
         System.out.println("------------Polymorphysm -------------");
         Animal animal = new Whale();

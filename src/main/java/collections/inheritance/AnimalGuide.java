@@ -2,13 +2,15 @@ package collections.inheritance;
 
 
 import collections.inheritance.animals.Animal;
+import collections.inheritance.interfaces.FarmAnimal;
 
 public class AnimalGuide {
 
-    public void feedAnimal(Animal animal){
+    public void feedAnimal(FarmAnimal animal){
         System.out.println("Opiekun karmi zwierze:");
         animal.eat();
         animal.makeSound();
+
 
 
         //animal.uhaha();

@@ -1,6 +1,10 @@
 package collections.inheritance.animals;
 
-public class Cow extends Animal{
+import collections.inheritance.interfaces.FarmAnimal;
+import collections.inheritance.interfaces.LandCreature;
+import jdk.jfr.Label;
+
+public class Cow extends Animal implements LandCreature, FarmAnimal {
 
 
     public Cow(String name, int age) {

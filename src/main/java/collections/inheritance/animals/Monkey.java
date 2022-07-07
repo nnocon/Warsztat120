@@ -1,6 +1,9 @@
 package collections.inheritance.animals;
 
-public class Monkey extends Animal{
+import collections.inheritance.interfaces.LandCreature;
+import collections.inheritance.interfaces.WildAnimal;
+
+public class Monkey extends Animal implements WildAnimal, LandCreature {
 
     private int tailLength;
 

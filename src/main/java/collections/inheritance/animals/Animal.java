@@ -1,7 +1,10 @@
 package collections.inheritance.animals;
 
 
-public abstract class Animal {
+import collections.inheritance.interfaces.WaterCreature;
+import collections.inheritance.interfaces.WildAnimal;
+
+public abstract class Animal implements WildAnimal, WaterCreature {
 
     String name;
     int age;
